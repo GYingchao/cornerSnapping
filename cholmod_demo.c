@@ -163,8 +163,7 @@ int main (int argc, char **argv)
 	cholmod_dense *X0 ;
 	X0 = cholmod_ones (A->ncol, 1, xtype, cm) ;
 	cholmod_sdmult (A, 0, one, zero, X0, B, cm) ;
-	cholmod_free_dense (&X0, cm) ;
-    }
+	cholmod_free_dense
 #else
     if (xtype == CHOLMOD_REAL)
     {

@@ -18,9 +18,15 @@
     <ClInclude Include="cholmod_demo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CSSimpleSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cholmod_demo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSSimpleSolver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
