@@ -8,15 +8,17 @@
 #include <stdlib.h>
 #include <vector>
 #include <iostream>
-#include <Cholmod_solver_traits.h>
+//#include <Cholmod_solver_traits.h>
 
 using namespace std;
 
 #define CPUTIME (clock())
 
+/*
 typedef Cholmod_solver_traits<double> Cholmod_Solver;
 typedef Cholmod_Solver::Dense_matrix DenseMatrix;
 typedef Cholmod_Solver::Sparse_matrix SparseMatrix;
+*/
 
 //template <class Object>
 class CSSimpleSolver

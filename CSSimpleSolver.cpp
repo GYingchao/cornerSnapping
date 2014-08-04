@@ -30,6 +30,7 @@ vector<vector<double>>& CSSimpleSolver::nullSpace(const vector<vector<double>> &
 	if(!A.empty()) {
 		int m = A.size();
 		int n = A[0].size();
+		/*
 		//if(m >= n) {
 			// Can be solved by cholmod
 			Cholmod_Solver solver;
@@ -58,6 +59,7 @@ vector<vector<double>>& CSSimpleSolver::nullSpace(const vector<vector<double>> &
 		//} else {
 			//cout << "Matrix format error!" << endl;
 		//}
+		*/
 	} else {
 		cout << "Null pointer of A in computing nullspace!" << endl;
 	}
